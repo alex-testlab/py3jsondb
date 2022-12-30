@@ -396,6 +396,17 @@ class JsonDatabase(object):
         """
         return self.db[self.name][entry_id]
 
+    def get_entry_path_by_id(self,entry_id):
+        """
+        get entry path by entry id
+
+        :param entry_id: the entry id
+        :type entry_id: int
+        :return: the entry path
+        :rtype: list
+        """
+        return [self.name,entry_id]
+
     def get_child_by_entry_id(self,entry_id,child_name='children'):
         """
         get the child node of entry by entry id
@@ -426,6 +437,19 @@ class JsonDatabase(object):
         """ 
         entry = self.db[self.name][entry_id]
         entry[child_name] = child_data
+
+    def get_child_path_of_entry(self,entry_id,child_name='children'):
+        """
+        get the child node path
+
+        :param entry_id: the entry id
+        :type entry_id: int
+        :param child_name: custom child node name
+        :type child_name: str
+        :return: the child path
+        :rtype: list
+        """ 
+        return [self.name,entry_id,child_name]
 
     def update_child_of_entry(self,entry_id,child_data,overwrite=True,child_name='children'):
         """
