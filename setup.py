@@ -9,5 +9,5 @@ setup(
     author='jarbasAI,Alex',
     author_email='',
     install_requires=["pyxdg", "fasteners"],
-    description='searchable json database, easy to add,update,delete and search'
+    description='searchable json database, easy to add,update,delete and search in any level nested json tree'
 )
