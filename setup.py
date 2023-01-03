@@ -4,7 +4,7 @@ setup(
     name='pyjsondb',
     version='1.0.0',
     packages=['pyjsondb', 'pyjsondb.utils'],
-    url='',
+    url='https://github.com/alex-testlab/pyjsondb',
     license='MIT',
     author='jarbasAI,Alex',
     author_email='',
