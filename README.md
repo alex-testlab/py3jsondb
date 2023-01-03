@@ -1,4 +1,4 @@
-# PyJsonDB
+# Py3jsondb
 
 Python dict based database with persistence and search capabilities
 
@@ -19,7 +19,7 @@ support add, update, delete in any level nested json tree
 ## Install
 
 ```bash
-pip3 install pyjsondb
+pip3 install py3jsondb
 ```
 
 ## Usage
@@ -47,7 +47,7 @@ Let's create a dummy database with users
 and Add some entrys of users
 
 ```python
-from pyjsondb import JsonDatabase
+from py3jsondb import JsonDatabase
 
 db_path = "users.db"
 
@@ -76,7 +76,7 @@ with JsonDatabase("users", db_path) as db:
 add, change,delete table
 
 ```python
-from pyjsondb import JsonDatabase
+from py3jsondb import JsonDatabase
 
 db_path = "users.db"
 
@@ -114,7 +114,7 @@ db.reload()
 add, update and delete child in entrys
 
 ```python
-from pyjsondb import JsonDatabase
+from py3jsondb import JsonDatabase
 
 db_path = "users.db"
 
@@ -136,7 +136,7 @@ with JsonDatabase("users", db_path) as db:
 add, update and delete any node  in any nested json tree
 
 ```python
-from pyjsondb import JsonDatabase
+from py3jsondb import JsonDatabase
 
 db_path = "users.db"
 
@@ -161,7 +161,7 @@ with JsonDatabase("users", db_path) as db:
 search entries by key
 
 ```python
-from pyjsondb import JsonDatabase
+from py3jsondb import JsonDatabase
 
 db_path = "users.db"
 
@@ -200,7 +200,7 @@ for user, conf in jon_users:
 You can save arbitrary objects to the database
 
 ```python
-from pyjsondb import JsonDatabase
+from py3jsondb import JsonDatabase
 
 db = JsonDatabase("users", "~/databases/users.json")
 

@@ -1,5 +1,5 @@
-from pyjsondb import JsonStorageXDG
-from pyjsondb.search import Query
+from py3jsondb import JsonStorageXDG
+from py3jsondb.search import Query
 from pprint import pprint
 
 

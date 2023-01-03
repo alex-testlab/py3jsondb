@@ -1,6 +1,6 @@
-from pyjsondb.utils import *
-from pyjsondb.jsonpath import JsonPath
-from pyjsondb.exceptions import InvalidEntryID, DatabaseNotCommitted, \
+from py3jsondb.utils import *
+from py3jsondb.jsonpath import JsonPath
+from py3jsondb.exceptions import InvalidEntryID, DatabaseNotCommitted, \
     SessionError, MatchError, TableNotFound,TableCanNotBeEmpty,ChildNotFound
 from os.path import expanduser, isdir, dirname, exists, isfile, join
 from os import makedirs, remove
@@ -8,7 +8,7 @@ import json
 import logging
 from pprint import pprint
 from xdg import BaseDirectory
-from pyjsondb.utils.combo_lock import ComboLock, DummyLock
+from py3jsondb.utils.combo_lock import ComboLock, DummyLock
 
 from tempfile import gettempdir
 

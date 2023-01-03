@@ -1,5 +1,5 @@
-from pyjsondb import JsonStorage
-from pyjsondb.exceptions import DatabaseNotCommitted
+from py3jsondb import JsonStorage
+from py3jsondb.exceptions import DatabaseNotCommitted
 from os.path import exists
 
 save_path = "my_dict.conf"

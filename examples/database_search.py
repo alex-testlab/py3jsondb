@@ -1,4 +1,4 @@
-from pyjsondb import JsonDatabase
+from py3jsondb import JsonDatabase
 from os.path import isfile
 
 

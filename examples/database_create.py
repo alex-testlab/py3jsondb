@@ -1,4 +1,4 @@
-from pyjsondb import JsonDatabase
+from py3jsondb import JsonDatabase
 
 optional_file_path = "users.db"
 

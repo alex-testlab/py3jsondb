@@ -1,4 +1,4 @@
-from pyjsondb import JsonStorage
+from py3jsondb import JsonStorage
 
 save_path = "my_dict.conf"
 

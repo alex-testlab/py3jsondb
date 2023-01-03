@@ -1,5 +1,5 @@
-from pyjsondb import JsonStorageXDG
-from pyjsondb.exceptions import DatabaseNotCommitted
+from py3jsondb import JsonStorageXDG
+from py3jsondb.exceptions import DatabaseNotCommitted
 from os.path import exists
 
 save_path = "my_dict"

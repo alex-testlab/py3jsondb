@@ -1,5 +1,5 @@
-from pyjsondb.utils import fuzzy_match, match_one
-from pyjsondb import JsonDatabase, JsonStorageXDG
+from py3jsondb.utils import fuzzy_match, match_one
+from py3jsondb import JsonDatabase, JsonStorageXDG
 
 
 class Query:
